@@ -5,25 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
-    "test:all": "cypress run --spec \"**/*.features\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
+    "open": "cypress open"
   },
   "keywords": [
     "cypress",
     "cucumber",
     "testing"
   ],
-  "author": "Lukasz Gandecki",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TheBrainFamily/cypress-cucumber-example/issues"
-  },
-  "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-example#readme",
+  "author": "Lizeth Meza",
+  "license": "GIT",
   "dependencies": {
-    "cypress": "^4.9.0",
+    "cypress": "^4.12.1",
     "cypress-cucumber-preprocessor": "^2.5.0"
   },
   "cypress-cucumber-preprocessor": {
